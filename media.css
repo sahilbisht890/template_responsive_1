@@ -1,0 +1,369 @@
+@media screen and (max-width:900px) {
+    html{
+
+        .text1 .heading
+        {
+           font-size: 2.8rem;
+           font-weight: 800;
+           font-family: 'cardo';
+           line-height: 2.8rem;
+        }
+   
+       .text1
+       { 
+           padding-top:10%;
+           width: 100%;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+       }
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+
+    .heading5 
+    {
+        font-size: 1.4rem;
+        font-family: 'Cardo';
+        text-decoration: underline;
+        line-height: 2.2rem;
+        width: 60%;
+        font-weight: 700
+    }
+
+  .container6{  padding:5% 0 5% 8% ;
+    width: 100%;
+    background-color: black;
+    color: white;
+  display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.heading6
+{
+
+font-family: 'cardo';
+font-size: 2rem;
+font-weight: bolder;
+line-height: 2rem;
+width: 100%;
+text-align: center;
+}
+
+.left6{
+    width: 100%;
+    text-align: center;
+
+}
+
+.s6
+{
+    width: 100%;
+    text-align: center;
+
+}
+
+.c6_1
+{
+ padding-top: 10%;
+}
+.c6_1,.c6_2
+{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.container7
+{
+    padding:6% 8%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.right7
+{
+    width: 100%;
+    text-align: center;
+}
+
+.img7
+{
+    width: 80%;
+}
+
+.left7
+{
+    text-align: center;
+    width: 100%;
+}
+.head7{
+    padding:5% 0;
+    font-size:3rem;
+}
+
+.left7 div 
+{
+    width: 100%;
+}
+
+.container9
+{
+    padding: 2% 2%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.c9_left
+{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+    .c9_head
+{
+    font-size: 2.5rem;
+    font-family: 'cardo';
+    font-weight: 600;
+    margin-bottom:1rem;
+
+}
+
+.form input 
+{
+    width: 100%;
+
+    padding: 2% 2%;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    border: 2px solid black;
+    background-color: #eae8e8;
+
+}
+
+input[type="submit"]
+{
+    text-align: center;
+    padding: 2% 0;
+    color: white;
+    background-color: black;
+    margin-top: 3%;
+    font-size: .8rem;
+}
+
+textarea{
+    width: 100%;
+    height: 9rem;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding:2% 3% ;
+    background-color: #eae8e8;
+
+}
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.c9_right
+{
+    width: 100%;
+    padding: 0;
+    text-align: center;
+
+}
+
+.c9_pic
+{
+    width: 60%;
+    padding:0;
+    margin:0;
+    height: 12rem;
+}
+
+
+.container10
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top10
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.h10
+{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.options
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.options div {
+    width: 30%;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.l10
+{
+    font-size: 2rem;
+    font-family: 'cardo';
+    font-weight: 700;
+    width: 100%;
+    padding: 2% 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 10px;
+    }
+
+    .first_look
+    {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+
+
+
+    }
+
+
+
+    .text .ticket {
+        width: 40%;
+    }
+
+     .text1 .heading
+     {
+        font-size: 2.8rem;
+        font-weight: 800;
+        font-family: 'cardo';
+        line-height: 2.8rem;
+     }
+
+    .text1
+    { 
+        padding-top:10%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    
+  .container4
+  {
+    padding: 11% 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(c4_left.png), url(c4_right.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom 1% left 10%, bottom 185% right;
+    background-size: 29% 6%, 18% 103%
+  }
+  .content5
+  {
+    display: flex;
+    flex-direction: column;
+  }
+.heading5
+{
+    font-size: 1.6rem;
+    font-family: 'Cardo';
+    text-decoration: underline;
+    line-height: 2rem;
+    width: 100%;
+    font-weight: 700;
+}
+.sub5
+{
+    padding: 2% 0;
+    width: 100%;
+}
+
+.mid2
+{
+    font-family: 'cardo';
+    font-weight: bold;
+    width: 50%;
+    font-size: 1.5rem;
+    line-height: 1rem;
+    padding: 1.5rem 0
+}
+
+
+}
