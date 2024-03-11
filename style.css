@@ -23,8 +23,13 @@ body {
 .container1
 {
  
-    padding: 2% 8% 8% 8%;
 
+    padding: 2% 8% 8% 8%;
+    background-color: #eae8e8;
+    background-image: url(scribble_lightest_2.png), url(scribble_dark_7.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 575% left, top 112% right;
+    background-size: 39% 93%, 8% 43%;
     background-color: #eae8e8;
 
 
