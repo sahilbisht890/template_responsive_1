@@ -9,21 +9,26 @@
 
 }
 
-
-
-
+::-webkit-scrollbar{
+    display: none;
+}
 body {
+
     height: 100vh;
     width: 100vw;
     margin: 0;
+    background-color: #eae8e8;
 }
 
+.heading_reverse_1{
+    display: none;
+}
 
 
 .container1
 {
  
-
+    width: 100%;
     padding: 2% 8% 8% 8%;
     background-color: #eae8e8;
     background-image: url(scribble_lightest_2.png), url(scribble_dark_7.png);
@@ -41,6 +46,20 @@ body {
 
 }
 
+
+input[type="submit"]:hover
+{
+
+transform: scale(1.2,1.2);
+cursor: pointer;
+
+}
+.side_bar
+{
+    display: none;
+}
+
+.slider{display: none;}
 .nav ul 
 {   
     display: flex;
@@ -66,10 +85,12 @@ body {
 .contact_us
 {
     border: 2px solid black;
-    padding: 6px 1.2rem;
+    padding: 5px 1.65rem;
     border-radius: 5px;
     font-weight: bolder;
-    font-family: 'cardo'
+    font-family: 'cardo';
+    font-size: 1.2rem;
+
 }
 
 
@@ -80,14 +101,16 @@ body {
     font-weight: 800;
     font-family: 'cardo';
     line-height: 4.8rem;
+    
 
 }
 
 .text1 .sub
 {
- width: 85%;
+ width: 80%;
  font-family: sans-serif;
  padding: .8rem 0px 2rem 0;
+ text-align: justify;
 
 }
 
@@ -97,16 +120,17 @@ body {
     background-color: rgb(8, 7, 7);
     font-size: 1rem;
     color: white;
-    font-weight: 700;
+    font-weight: bolder;
     text-align: center;
-    width: 32%;
+    width: 44%;
     border-radius: 8px;
     font-family: 'Lato';
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding:10px 0;
+    padding:13px 0;
+    
 }
 
 .first_look
@@ -121,7 +145,7 @@ body {
 
 .img1
 {
-    height: 94%;
+    height: 98%;
     width: 100%;
 }
 
@@ -135,7 +159,7 @@ body {
 /* css for container2  */
 .container2
 {
-    background-color: black;
+    background-color: #1d1d1d;
     background-image: url(scribble_light_2.png), url(scribble_light_3.png);
     background-repeat: no-repeat, no-repeat;
     background-position: bottom 19% right, top 19% left;
@@ -159,10 +183,11 @@ body {
 .text2
 {
     text-align: center;
-    color: white;
-    font-size: .6rem;
+    color: #eae8e8;
     font-family: sans-serif;
-    width: 23%
+    width: 22%;
+    text-align: justify;
+    font-size: .8rem
 }
 .logs
 {
@@ -190,7 +215,11 @@ body {
 
 .container3{
     background-color: #eae8e8;
-    padding: 4% 8% 15% 8%;
+    padding: 10% 8% 15% 8%;
+    background-image: url(c3_left.png), url(scribble_dark_5.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right top 70%;
+    background-size: 5% 81%, 4% 38%
 
 }
 
@@ -203,7 +232,7 @@ body {
 .content3
 {
     width: 60%;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-family: 'Cardo';
     line-height: 1.7rem;
     font-weight: bold;
@@ -218,7 +247,7 @@ body {
 
 .sub_3
 {
-    padding-top: 2rem;
+    padding-top: 1rem;
     width: 100%;
     font-size: .9rem
 
@@ -257,11 +286,16 @@ hr{
     align-items: center;
     background-image: url(c4_left.png), url(c4_right.png);
     background-repeat: no-repeat, no-repeat;
-    background-position: bottom 10% left 10%, bottom 214% right;
-    background-size: 29% 15%, 22% 100%;
+    background-position: bottom 18% left 10%, bottom 4% right;
+    background-size: 31% 14%, 21% 90%;
     background-color: #eae8e8;
 
 
+  }
+
+  .reverse_heading_6
+  {
+    display: none;
   }
 
   .aero{
@@ -319,11 +353,10 @@ hr{
 {
    
     font-size: 1.8rem;
-    font-family: 'Cardo';
     text-decoration: underline;
-    line-height: 2.2rem;
-    width: 40%;
-    font-weight: 700
+    line-height: 2.4rem;
+    width: 35%;
+    font-weight: bolder
 }
 .content5
 {
@@ -349,13 +382,14 @@ hr{
 {
     font-size: .8rem;
     font-family: sans-serif;
-    width: 49%;
+    width: 50%;
+    text-align: justify
 }
 
 .imgl5
 {
-    width: 41%;
-    margin-right: 6rem;
+    width: 48%;
+    margin-right: 3rem;
     height: 36rem
 
 }
@@ -383,7 +417,7 @@ hr{
 .container6{
     padding:9% 0 9% 8% ;
     width: 100%;
-    background-color: black;
+    background-color: #1d1d1d;
     color: white;
   display: flex;
   justify-content: flex-start;
@@ -459,6 +493,7 @@ hr{
     align-items: flex-start;
     flex-wrap: nowrap;
     background-color: #eae8e8;
+    margin-bottom: 10%;
 
 
 }
@@ -483,7 +518,7 @@ hr{
     font-weight: bold;
     color: black;
     width: 100%;
-    padding-bottom:17%;
+    padding-bottom:15%;
 
 }
 
@@ -493,9 +528,9 @@ hr{
  font-size: 1rem;
   display: flex;
   align-items: center;
-  padding: 1rem 0;
+  padding: 1rem 1rem;
   border-top: 2px solid black;
-  width: 91%;
+  width: 95%;
 }
 
 .plus 
@@ -508,7 +543,7 @@ hr{
 
 .img7{
     width: 100%;
-  height: 29rem;
+  height: 28rem;
 }
 
 
@@ -534,13 +569,13 @@ container8 css ---------------
 
 .head8
 {
-    font-size: 4.3rem;
+    font-size: 3.5rem;
     font-family: 'cardo';
-    line-height: 4rem;
+    line-height: 3.5rem;
     font-weight: bolder;
-    width: 50%;
+    width: 40%;
     text-align: center;
-    padding-bottom: 5%;
+    padding-bottom: 4%;
    
 }
 
@@ -564,7 +599,10 @@ padding: 4% 2%;
 {
     width: 100%;
     text-align: center;
-    font-size: 1rem;
+    font-size: .8rem;
+    color: #837878;
+    font-family: sans-serif;
+    padding:2% 0;
 
 }
 
@@ -578,6 +616,7 @@ h3
 
 {
     padding: 5% 0 2% 0;
+    font-family: sans-serif;
 }
 .sign1{
     position: relative;
@@ -585,7 +624,6 @@ h3
     left: 5.5%;
     width: 7%;
     background-color: #eae8e8;
-    font-size: 4rem;
     border: 2px solid black;
     height: 5rem;
     border-radius: 10px;
@@ -601,7 +639,6 @@ h3
     right: 5.5%;
     width: 7%;
     background-color: #eae8e8;
-    font-size: 4rem;
     border: 2px solid black;
     height: 5rem;
     border-radius: 10px;
@@ -609,6 +646,10 @@ h3
     justify-content: center;
     align-items: center;
 
+}
+.update
+{
+    display: none;
 }
 
 
@@ -620,6 +661,8 @@ h3
     display: flex;
     
 }
+
+.reverse7{display: none;}
 
 .c9_left
 {
@@ -646,7 +689,7 @@ h3
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 3% 3%;
+    padding: 2% 3%;
     border-radius: 6px;
     margin-bottom: 1rem;
     border: 2px solid black;
@@ -671,6 +714,7 @@ textarea{
     border-radius: 6px;
     padding:2% 3% ;
     background-color: #eae8e8;
+    margin-bottom:7%
 
 }
 
@@ -749,3 +793,46 @@ display: flex;
     font-family: 'cardo';
     padding-bottom: 3%;
 }
+
+li:hover{
+color: black;
+cursor: pointer;
+}
+.ticket:hover
+{
+    transform: scale(1.2,1.2);
+
+  background-color: white;
+  cursor: pointer;
+  color: black;
+  border:2px solid black;
+}
+
+.contact_us:hover{
+    transform: scale(1.2,1.2);
+
+  background-color: black;
+  cursor: pointer;
+  color:white;
+  border:2px solid white;
+}
+
+.logs:hover{
+   transform: scale(1.2,1.2);
+   cursor: pointer; 
+}
+
+.options div:hover 
+{
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+
+
+.left_arrow,.right_arrow
+{
+    width: 54%;
+    height: 54%;
+}
+

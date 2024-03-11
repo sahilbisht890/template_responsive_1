@@ -9,15 +9,7 @@
            line-height: 2.8rem;
         }
    
-       .text1
-       { 
-           padding-top:10%;
-           width: 100%;
-           display: flex;
-           flex-direction: column;
-           justify-content: center;
-           align-items: center;
-       }
+ 
     }
     
 }
@@ -26,6 +18,19 @@
     html {
         font-size: 14px;
     }
+
+
+    .top5_pic
+    {
+        width: 100%;
+    }
+    .right5{
+        width: 100%;
+        text-align: center;
+    }
+
+
+
 
     .heading5 
     {
@@ -38,26 +43,31 @@
     }
 
   .container6{  
-    padding:5% 5% 5% 8% ;
+    padding:5% 5% 5% 5% ;
     width: 100%;
     background-color: black;
     color: white;
   display: flex;
-   flex-direction: column;
+   flex-direction: column-reverse;
    justify-content: center;
    align-items: center;
+   background-image: none;
 }
 
-.heading6
+.sub6
 {
-
-font-family: 'cardo';
-font-size: 2rem;
-font-weight: bolder;
-line-height: 2rem;
-width: 100%;
-text-align: center;
+    text-align: justify;
 }
+
+.sub_head6 {
+    font-family: sans-serif;
+    font-size: .8rem;
+    font-weight: bold;
+    width: 50%;
+    padding: 4% 0;
+}
+
+
 
 .left6{
     width: 100%;
@@ -68,8 +78,9 @@ text-align: center;
 .s6
 {
     width: 100%;
-    text-align: center;
-
+    display: flex;
+    flex-direction: row;
+  justify-content: space-around;
 }
 
 .c6_2
@@ -78,16 +89,14 @@ text-align: center;
     padding-bottom: 5%;
 }
 
-.c6_1
-{
- padding-top: 5%;
-}
 
 .c6_1,.c6_2
 {
  display: flex;
  flex-direction: column;
  align-items: center;
+ margin: 0;
+ padding: 0;
 }
 
 .container7
@@ -103,6 +112,7 @@ text-align: center;
 {
     width: 100%;
     text-align: center;
+    padding: 2%;
 }
 
 .img7
@@ -116,8 +126,7 @@ text-align: center;
     width: 100%;
 }
 .head7{
-    padding:5% 0;
-    font-size:3rem;
+  display: none;
 }
 
 .left7 div 
@@ -127,9 +136,22 @@ text-align: center;
 
 .container9
 {
-    padding: 2% 2%;
+    padding: 2% 8%;
     display: flex;
     flex-direction: column-reverse;
+
+}
+
+.update
+{
+    display:block;
+    padding-top:5%;
+    font-size: 2.5rem;
+    font-family: 'cardo';
+    font-weight: 600;
+    margin-bottom:1rem;
+    text-align: center;
+
 }
 
 
@@ -146,11 +168,7 @@ text-align: center;
 
     .c9_head
 {
-    padding-top:5%;
-    font-size: 2.5rem;
-    font-family: 'cardo';
-    font-weight: 600;
-    margin-bottom:1rem;
+ display: none;
 
 }
 
@@ -193,6 +211,19 @@ textarea{
   
 }
 
+.reverse7
+{
+    display: block;
+    padding: 5% 0;
+    font-size: 2.4rem;
+    font-family: 'Cardo';
+    line-height: 2.2rem;
+    font-weight: bold;
+    color: black;
+    width: 100%;
+    text-align: center
+}
+
 .c9_right
 {
     width: 100%;
@@ -217,6 +248,8 @@ textarea{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-position: left bottom 10%;
+    background-size: 19% 8%;
 }
 
 .top10
@@ -247,10 +280,12 @@ textarea{
 }
 
 .options div {
-    width: 30%;
+    width: 50%;
     display: flex;
-    flex-wrap: nowrap;
-
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: center;
+    padding: 2.5% 0%;
 }
 
 .l10
@@ -273,8 +308,10 @@ textarea{
 
 .card1
 {
+   margin-bottom: 2%;
   width: 100%;
-  padding-bottom: 10%;
+  padding-bottom:2%;
+  box-shadow: 2px 2px 2px black;
 }
 
 
@@ -296,12 +333,20 @@ li
 
 .text1 .heading
 {
+ display: none; 
+}
+.heading_reverse_1
+{
+    padding-bottom:3%;
+    display: block;
     width: 100%;
-   font-size: 2.5rem;
-   font-weight: 800;
-   font-family: 'cardo';
-   line-height: 2rem;
-   text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: 'cardo';
+    line-height: 2.1rem;
+    text-align: center;
+    font-weight: bolder;
+
 }
 
 
@@ -328,28 +373,43 @@ padding-bottom: 5%;
 
 
 .imgl5 {
-    width: 60%;
-    margin-right: 1rem;
-    height: 36rem
+    width: 80%;
+    height: 36rem;
+    margin:10%;
 }
 
 
 .imgr5 {
-    width: 100%;
-    height: 5rem;
+    width: 80%;
+    height: 18rem;
 }
 
 .content5 {
     padding: 1rem 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.container5{
-background-image: none;
-background-color: #eae8e8;
+.heading6
+{
+    display: none;
+}
+.reverse_heading_6
+{
+    display: block;
+
+padding:4% 0 ;
+font-family: 'cardo';
+font-size: 2rem;
+font-weight: bolder;
+line-height: 2rem;
+width: 100%;
+text-align: center;
+
 
 }
+
 
 .down8 {
     width: 100%;
@@ -360,74 +420,54 @@ background-color: #eae8e8;
 }
 
 .card{
-width: 50%;
+width: 62%;
 display: flex;
 flex-direction: column;
 align-items: center;
 border: 2px solid black;
 border-radius: 10px;
-padding: 4% 2%;
+padding: 8% 2%;
 margin-bottom: 5%;
 }
 
-.sign1{
-position: relative;
-top: 0rem;
-left: 0.5%;
-width: 20%;
-background-color: #eae8e8;
-font-size: 4rem;
-border: 2px solid black;
-height: 5rem;
-border-radius: 10px;
-display: flex;
-justify-content: center;
-align-items: center;
-margin-bottom: 5%;
+.sign1,.sign2{
+
+    display: none;
 }
 
 .head8
 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: 'cardo';
-    line-height: 4rem;
     font-weight: bolder;
-    width: 80%;
+    width:100%;
     text-align: center;
     padding-bottom: 5%  
     
 
 }
 
+.container2
+{
+    padding: 4% 8%;
+    background: none;
+    background-color: black;
+}
 
 .container8
 {
-    padding: 5% 0 8% 0;
+    padding: 5% 8% 8% 8%;
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: #eae8e8;
     background-image: url(c8_top.png), url(c8_bottom.png);
     background-repeat: no-repeat, no-repeat;
-    background-position: top 7% left, bottom 6% right;
-    background-size: 20% 11%, 37% 7%;
+    background-position: top 24% left, bottom 3% right;
+    background-size: 20% 11%, 37% 7%
 }
 
-.sign2 {
-    position: relative;
-    top: 0rem;
-    right: 1.5%;
-    width: 20%;
-    background-color: #eae8e8;
-    font-size: 4rem;
-    border: 2px solid black;
-    height: 5rem;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-}
 
 
 .profile_icon {
@@ -436,13 +476,155 @@ margin-bottom: 5%;
 }
 
 
+.text1 .sub {
+    width: 85%;
+    font-family: sans-serif;
+    padding: 0.8rem 0px 2rem 0;
+    text-align: justify;
+
+}
+
+.container3
+{
+    padding-bottom: 0%;
+    background: none;
+}
+
+
+.container5
+{
+  width: 100%;
+  padding:0 4% 4% 4%;
+  background-image: none;
+
+}
+
+
+.cont5 
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+
+.tape {
+display: none;
+}
 
 
 
 
 
+.img6
+{
+    width: 80%;
+}
 
 
+.mid{
+    width: 100%;
+    padding: 0;
+}
+
+.mid2
+{
+    font-family: 'cardo';
+    font-weight: bold;
+    width: 100%;
+    font-size: 2.3rem;
+    line-height: 1.5rem;
+    padding: 1.5rem 0;
+    text-align: center;
+    
+}
+
+.text2
+{
+    width: 75%;
+    text-align: justify;
+    font-size: 1rem
+}
+
+
+  
+  .aero {
+    position: absolute;
+    top: 8%;
+    left: 0;
+    transform: rotate(90deg);
+    animation: moveLeftToRight 5s linear infinite; /* Adjust animation duration as needed */
+  }
+  
+  @keyframes moveLeftToRight {
+    0% {
+      left: -100%; /* Start position */
+    }
+    100% {
+      left: 100%; /* End position */
+    }
+  }
+  
+
+  .text1
+  { 
+      padding-top:2%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+.first_look
+{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.nav{
+    display: none;
+
+}
+
+.slider_img{
+    width: 10%;
+    height: 10%;
+}
+
+.slider
+{
+    width: 50%;
+    display:block
+}
+
+.just_practise
+{
+ display: flex;
+ flex-direction: row;
+}
+
+.side_bar
+{
+    position: relative;
+    right:10%;
+    width:30%;
+    height: 17rem;
+    background-color: rgb(6, 9, 8);
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.side_bar div{
+color:white;
+}
+
+.side_bar div :hover
+{
+background-color: white;
+color: black;
+}
 
 
 }
@@ -450,17 +632,6 @@ margin-bottom: 5%;
 @media screen and (max-width: 480px) {
     html {
         font-size: 10px;
-    }
-
-    .first_look
-    {
-        display: flex;
-        flex-wrap: wrap-reverse;
-        justify-content: center;
-        align-items: center;
-
-
-
     }
 
 
@@ -477,15 +648,7 @@ margin-bottom: 5%;
         line-height: 2.8rem;
      }
 
-    .text1
-    { 
-        padding-top:10%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+
 
     .cards
     {
@@ -501,10 +664,11 @@ margin-bottom: 5%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(c4_left.png), url(c4_right.png);
-    background-repeat: no-repeat, no-repeat;
-    background-position: bottom 1% left 10%, bottom 185% right;
-    background-size: 29% 6%, 18% 103%
+    background-image: url(c4_right.png);
+    background-repeat: no-repeat;
+    background-position: bottom 50% right;
+    background-size: 12% 93%;
+    position: relative;
   }
   .content5
   {
@@ -516,25 +680,17 @@ margin-bottom: 5%;
     font-size: 1.2rem;
     font-family: 'Cardo';
     text-decoration: underline;
-    line-height: 2rem;
-    width: 100%;
+    line-height: 1.6rem;
+    width: 80%;
     font-weight: 700;
+    padding-bottom: 4%
 }
 .sub5
 {
-    padding: 15% 0;
-    width: 100%;
+    width: 80%;
 }
 
-.mid2
-{
-    font-family: 'cardo';
-    font-weight: bold;
-    width: 50%;
-    font-size: 1.5rem;
-    line-height: 1rem;
-    padding: 1.5rem 0
-}
+
 
 
 }

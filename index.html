@@ -7,13 +7,31 @@
   <title>Document</title>
   <link rel="stylesheet" href="style.css" class="stylesheets">
   <link rel="stylesheet" href="media.css" class="stylesheet">
+
+  <script>
+    function showsidebar()
+    {
+
+     let element=document.getElementById("bar");
+     const style = getComputedStyle(element);
+
+     if(style.display=='none')
+     element.style.display='flex';
+    else
+    element.style.display='none';
+
+
+    }
+  </script>
 </head>
 
 <body>
 
   <div class="container1">
     <div class="content1">
+      
       <div class="navbar">
+        <div class="slider" ><img  onclick="showsidebar()" src="line.jpg" alt="" class="slider_img"></div>
         <div class="nav">
           <ul>
             <li style="color: black;font-weight: bold;">
@@ -32,34 +50,50 @@
         </div>
 
         <div class="contact_us">
-          Contacts us
+          Contact Us
         </div>
 
       </div>
-      <div class="first_look">
 
-        <div class="text1">
+      <div class="just_practise">
+        <div  id="bar" class="side_bar">
+          <div>Home</div>
+          <div>Guides</div>
+          <div>Flights</div>
+          <div>About</div>
+        </div>
 
-          <div class="heading">
+        <div class="first_look">
+
+
+          <div class="text1">
+  
+            <div class="heading">
+              Travel to your dream destination
+            </div>
+            <div class="sub">
+              There are many variations of passages ... in some form, by injected humour,
+              or randomised words which don't look even slightly believable.All the best
+            </div>
+  
+            <div class="ticket">
+              Reserve Ticket
+            </div>
+  
+          </div>
+  
+          <div class="travel_pic">
+            <img src="img1.jpg" alt="" class="img1">
+  
+          </div>
+  
+          <div class="heading_reverse_1">
             Travel to your dream destination
           </div>
-          <div class="sub">
-            There are many variations of passages ... in some form, by injected humour,
-            or randomised words which don't look even slightly believable.All the best
-          </div>
-
-          <div class="ticket">
-            Reserve ticket
-          </div>
-
+  
         </div>
-
-        <div class="travel_pic">
-          <img src="img1.jpg" alt="" class="img1">
-
-        </div>
-
       </div>
+     
     </div>
   </div>
 
@@ -208,6 +242,9 @@
 
 
     <img src="img6.jpg" alt="" class="img6">
+    <div class="reverse_heading_6">
+      Choose anywhere you'd like to be
+    </div>
 
   </div>
 
@@ -242,6 +279,9 @@
     <div class="right7">
       <img src="7.jpg" alt="" class="img7">
     </div>
+
+    <div class="reverse7">Lorem ipsum dolor sit amet consectetur
+    </div>
   </div>
 
   <div class="container8">
@@ -250,7 +290,7 @@
     </div>
     <div class="down8">
       <div class="sign1" style="padding: 0 0">
-        &larr;
+          <img src="left_arrow-removebg-preview.png" alt="" class="left_arrow">
       </div>
       <div class="card">
         <img src="logo8.png" alt="" class="profile_icon">
@@ -283,8 +323,8 @@
 
       </div>
       <div class="sign2" style="padding: 0 0">
-        &rarr;
-      </div>
+        <img src="right_arrow-removebg-preview (1).png" alt="" class="right_arrow">
+       </div>
 
     </div>
 
@@ -295,7 +335,7 @@
     <div class="c9_left">
 
       <div class="c9_head">
-        Be Updated!
+        Be updated!
       </div>
 
       <div class="form">
@@ -320,6 +360,8 @@
       <img src="c9_pic.jpg" alt="" class="c9_pic">
 
     </div>
+
+    <div class="update">Be updated!</div>
 
   </div>
 
