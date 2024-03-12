@@ -14,10 +14,20 @@
     
 }
 
+
+
+
 @media screen and (max-width: 768px) {
     html {
         font-size: 14px;
     }
+
+
+
+    .plus {
+        padding-left: 2%;
+        font-weight: 700;
+        font-size: 1.1rem}
 
 
     .top5_pic
@@ -27,6 +37,12 @@
     .right5{
         width: 100%;
         text-align: center;
+    }
+
+    .one7 
+    {
+        text-align: justify;
+        font-size: 1.11rem;
     }
 
 
@@ -308,7 +324,7 @@ textarea{
 
 .card1
 {
-   margin-bottom: 2%;
+   margin-bottom: 6%;
   width: 100%;
   padding-bottom:2%;
   box-shadow: 2px 2px 2px black;

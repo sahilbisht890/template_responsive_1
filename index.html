@@ -12,7 +12,7 @@
     function showsidebar()
     {
 
-     let element=document.getElementById("bar");
+     let element=document.getElementsByClassName("side_bar");
      const style = getComputedStyle(element);
 
      if(style.display=='none')
@@ -22,10 +22,29 @@
 
 
     }
+
+    window.addEventListener("resize", (event) => {
+        console.log("size change");
+ 
+        if (checkWindowWidth(768)) {
+            const menu =document.getElementById('bar')
+          menu.style.display = "none";
+        }
+        });
+ 
+ 
+        function checkWindowWidth(width) {
+            return window.innerWidth >= width;
+        }
+
+
+
   </script>
 </head>
 
 <body>
+
+
 
   <div class="container1">
     <div class="content1">
