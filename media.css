@@ -452,14 +452,18 @@ text-align: center;
 }
 
 .card{
-    width: 82%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
     border: 2px solid black;
     border-radius: 10px;
-    padding: 6% 2%;
+    padding: 10% 2%;
     margin-bottom: 5%;
+
+
+
+    
 }
 
 .sign1,.sign2{
