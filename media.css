@@ -23,6 +23,13 @@
     }
 
 
+    #close_bar
+    {
+        margin-left: 77%;
+        font-size: 3rem;
+        padding: 0;
+    }
+
 
     .plus {
         padding-left: 2%;
@@ -78,14 +85,14 @@
 .sub6
 {
     text-align: justify;
-    font-size: .9rem;
+    font-size: 1.4rem;
 }
 
 .sub_head6 {
     font-family: sans-serif;
-    font-size: 1.2rem;
+    font-size: 2.2rem;
     font-weight: bold;
-    width: 50%;
+    width: 90%;
     padding: 4% 0 2% 0;
 }
 
@@ -119,7 +126,7 @@
  flex-direction: column;
  align-items: center;
  margin: 0;
- padding: 0;
+ padding: 2rem;
 }
 
 .container7
@@ -174,7 +181,7 @@
 {
     display:block;
     padding-top:5%;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     font-family: 'cardo';
     font-weight: 600;
     margin-bottom:1rem;
@@ -313,13 +320,16 @@ textarea{
     display: flex;
     flex-wrap: wrap;
     padding: 0;
-    justify-content: center;
     padding: 2.5% 0%;
+    font-size: 1.5rem;
+}
+.link{
+    font-size: 2.4rem;
 }
 
 .l10
 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: 'cardo';
     font-weight: 700;
     width: 100%;
@@ -333,6 +343,10 @@ textarea{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.down{
+    font-size: 1.2rem;
 }
 
 .card1
@@ -371,11 +385,11 @@ li
     padding-bottom: 3%;
     display: block;
     width: 100%;
-    font-size: 3rem;
+    font-size: 3.3rem;
     font-weight: 800;
     font-family: 'cardo';
-    line-height: 3rem;
-    text-align: left;
+    line-height: 4rem;
+    text-align: center;
     font-weight: bolder;
 
 }
@@ -398,7 +412,7 @@ font-family: sans-serif;
 font-weight: bold;
 width: 100%;
 text-align: center;
-font-size:.8rem;
+font-size:1rem;
 padding-bottom: 5%;
 }
 
@@ -458,7 +472,7 @@ text-align: center;
     align-items: center;
     border: 2px solid black;
     border-radius: 10px;
-    padding: 10% 2%;
+    padding: 15% 2%;
     margin-bottom: 5%;
 
 
@@ -514,19 +528,38 @@ text-align: center;
     font-family: sans-serif;
     padding: 0.8rem 0px 2rem 0;
     text-align: justify;
+    font-size: 1.6rem;
 
 }
+
+#temp_card1,#temp_card2
+{
+    display: none;
+}
+
+.slider_arrow
+{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.right_slider,.left_slider
+{
+ font-size: 5rem;
+}
+
 
 h3 
 {
     padding: 4% 0;
-    font-size: 1.7rem;
+    font-size: 2rem;
 }
 
 .text8
 {
     text-align: justify;
-    font-size: 1rem;
+    font-size: 1.4rem;
     padding: 0% 1rem;
 }
 
@@ -592,9 +625,20 @@ display: none;
 {
     width: 100%;
     text-align: justify;
-    font-size: 1rem
+    font-size: 1.3rem
 }
 
+.logs
+{
+    text-align: center;
+    color: white;
+    font-size: 1.35rem;
+    border: 2px solid white;
+    font-family: 'lato';
+    padding: 4px 1.6rem;
+    border-radius: 4px;
+    margin: 1.5rem 0
+}
 
   
   .aero {
@@ -640,6 +684,7 @@ display: none;
 .container1
 {
     padding-top: 4%;
+    background: none;
 }
 .slider_img{
     width: 10%;
@@ -660,8 +705,7 @@ display: none;
 .side_bar
 {
     
-        padding: 3% 0;
-        width: 28%;
+        width: 40%;
         height: 100vh;
         background-color: black;
         flex-direction: column;
@@ -677,10 +721,17 @@ display: none;
 
 }
 
+.content3
+{
+    font-size: 2.1rem;
+    line-height: 2.2rem;
+}
+
 
 .sub_3
 {
     text-align: justify;
+    font-size: 1.4rem;
 }
 
 
@@ -702,6 +753,26 @@ color: black;
 @media screen and (max-width: 480px) {
     html {
         font-size: 10px;
+    }
+    .ticket
+    {
+        background-color: rgb(8, 7, 7);
+        font-size: 1.4rem;
+        color: white;
+        font-weight: bolder;
+        text-align: center;
+        width: 45%;
+        border-radius: 8px;
+        font-family: 'Lato';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 8px 0;
+    }
+
+    .ticker:hover{
+        transform: none;
     }
 
 
@@ -747,18 +818,19 @@ color: black;
   }
 .heading5
 {
-    font-size: 1.4rem;
+    font-size: 2rem;
     font-family: 'Cardo';
     text-decoration: underline;
-    line-height: 1.6rem;
-    width: 80%;
+    line-height: 2.2rem;
+    width: 90%;
     font-weight: 700;
-    padding-bottom: 4%
+    padding-bottom: 4%;
+    text-align: justify;
 }
 .sub5
 {
     width: 90%;
-    font-size:1rem ;
+    font-size:1.3rem ;
 }
 
 

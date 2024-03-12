@@ -9,66 +9,63 @@
   <link rel="stylesheet" href="media.css" class="stylesheet">
 
   <script>
-    function showsidebar()
-    {
+    function showsidebar() {
 
-     let element=document.getElementById('bar');
-     const style = getComputedStyle(element);
+      let element = document.getElementById('bar');
+      const style = getComputedStyle(element);
 
-     if(style.display=='none')
-     {
-     element.style.display='flex';
-     element.style.left='0%';
-     }
-    else
-    {
-    element.style.display='none';
-    element.style.left='-28%';
+      if (style.display == 'none') {
+        element.style.display = 'flex';
+        element.style.left = '0%';
+      }
+      else {
+        element.style.display = 'none';
+        element.style.left = '-28%';
 
-    }
+      }
 
     }
 
 
-    window.addEventListener('scroll',function()
-    {
-      let element=document.getElementById('bar');
-     const style = getComputedStyle(element);
+    window.addEventListener('scroll', function () {
+      let element = document.getElementById('bar');
+      const style = getComputedStyle(element);
 
-  
-    element.style.display='none';
-    element.style.left='-28%';
+
+      element.style.display = 'none';
+      element.style.left = '-28%';
     });
 
-    function closebar()
-    {
-      let element=document.getElementById('bar');
-     const style = getComputedStyle(element);
+    function closebar() {
+      let element = document.getElementById('bar');
+      const style = getComputedStyle(element);
 
-  
-    element.style.display='none';
-    element.style.left='-28%';
 
-    
+      element.style.display = 'none';
+      element.style.left = '-28%';
+
+
     }
 
 
 
 
     window.addEventListener("resize", (event) => {
-        console.log("size change");
- 
-        if (checkWindowWidth(768)) {
-            const menu = document.getElementById('bar');
-            menu.style.display = "none";
-            element.style.left='-28%';
+      console.log("size change");
 
+      if (checkWindowWidth(768)) {
+        const menu = document.getElementById('bar');
+        menu.style.display = "none";
+        element.style.left = '-28%';
+
+      }
+    });
+
+    function checkWindowWidth(width) {
+            return window.innerWidth >= width;
         }
-        });
- 
- 
-  
-    
+
+
 
 
 
@@ -81,9 +78,9 @@
 
   <div class="container1" onclick="checkbar(event)">
     <div class="content1">
-      
+
       <div class="navbar">
-        <div class="slider" ><img  onclick="showsidebar()" src="line.jpg" alt="" class="slider_img"></div>
+        <div class="slider"><img onclick="showsidebar()" src="line.jpg" alt="" class="slider_img"></div>
         <div class="nav">
           <ul>
             <li style="color: black;font-weight: bold;">
@@ -108,12 +105,14 @@
       </div>
 
       <div class="just_practise">
-        <div  id="bar" class="side_bar">
+        <div id="bar" class="side_bar">
+
+          <div onclick="closebar()" id="close_bar">&#10006;</div>
+
           <div>Home</div>
           <div>Guides</div>
           <div>Flights</div>
           <div>About</div>
-          <div onclick="closebar()" style="font-size: 2.4rem;padding: 6% 21%;border:1px solid white;border-radius: 5px;">&#10006;</div>
 
         </div>
 
@@ -121,7 +120,7 @@
 
 
           <div class="text1">
-  
+
             <div class="heading">
               Travel to your dream destination
             </div>
@@ -129,25 +128,25 @@
               There are many variations of passages ... in some form, by injected humour,
               or randomised words which don't look even slightly believable.All the best
             </div>
-  
+
             <div class="ticket">
               Reserve Ticket
             </div>
-  
+
           </div>
-  
+
           <div class="travel_pic">
             <img src="img1.jpg" alt="" class="img1">
-  
+
           </div>
-  
+
           <div class="heading_reverse_1">
             Travel to your dream destination
           </div>
-  
+
         </div>
       </div>
-     
+
     </div>
   </div>
 
@@ -344,7 +343,7 @@
     </div>
     <div class="down8">
       <div class="sign1" style="padding: 0 0">
-          <img src="left_arrow-removebg-preview.png" alt="" class="left_arrow">
+        <img src="left_arrow-removebg-preview.png" alt="" class="left_arrow">
       </div>
       <div class="card">
         <img src="logo8.png" alt="" class="profile_icon">
@@ -356,7 +355,7 @@
         </div>
 
       </div>
-      <div class="card">
+      <div class="card" id="temp_card1">
         <img src="logo8.png" alt="" class="profile_icon">
 
         <h3>Customer Name</h3>
@@ -366,7 +365,7 @@
         </div>
 
       </div>
-      <div class="card">
+      <div class="card" id="temp_card2">
         <img src="logo8.png" alt="" class="profile_icon">
 
         <h3>Customer Name</h3>
@@ -378,8 +377,13 @@
       </div>
       <div class="sign2" style="padding: 0 0">
         <img src="right_arrow-removebg-preview (1).png" alt="" class="right_arrow">
-       </div>
+      </div>
 
+    </div>
+
+    <div class="slider_arrow">
+      <div class="left_slider">&#11164;</div>
+      <div class="right_slider">&#11166;</div>
     </div>
 
   </div>
