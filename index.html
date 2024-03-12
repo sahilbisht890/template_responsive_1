@@ -29,6 +29,17 @@
 
     }
 
+
+    window.addEventListener('scroll',function()
+    {
+      let element=document.getElementById('bar');
+     const style = getComputedStyle(element);
+
+  
+    element.style.display='none';
+    element.style.left='-28%';
+    });
+
     function closebar()
     {
       let element=document.getElementById('bar');
