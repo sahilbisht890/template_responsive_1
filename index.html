@@ -14,13 +14,13 @@
       let element = document.getElementById('bar');
       const style = getComputedStyle(element);
 
-      if (style.display == 'none') {
-        element.style.display = 'flex';
+      if (style.left =='-45%') {
         element.style.left = '0%';
+        console.log("entered");
       }
       else {
-        element.style.display = 'none';
-        element.style.left = '-28%';
+        element.style.left = '0%';
+        console.log("entafsdfered");
 
       }
 
@@ -41,8 +41,7 @@
       const style = getComputedStyle(element);
 
 
-      element.style.display = 'none';
-      element.style.left = '-28%';
+      element.style.left = '-45%';
 
 
     }
@@ -55,8 +54,7 @@
 
       if (checkWindowWidth(768)) {
         const menu = document.getElementById('bar');
-        menu.style.display = "none";
-        element.style.left = '-28%';
+        element.style.left = '-45%';
 
       }
     });
@@ -113,6 +111,7 @@
           <div>Guides</div>
           <div>Flights</div>
           <div>About</div>
+          <div>Contact Us</div>
 
         </div>
 
@@ -382,8 +381,8 @@
     </div>
 
     <div class="slider_arrow">
-      <div class="left_slider">&#x2B9C;</div>
-      <div class="right_slider">&#11166;</div>
+    <img src="left_arrow-removebg-preview.png" alt="" class="left_slide">
+    <img src="right_arrow-removebg-preview (1).png" alt="" class="right_slide">
     </div>
 
   </div>

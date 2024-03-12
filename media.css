@@ -286,6 +286,7 @@ textarea{
     align-items: center;
     background-position: left bottom 10%;
     background-size: 19% 8%;
+    background: none;
 }
 
 .top10
@@ -346,7 +347,8 @@ textarea{
 }
 
 .down{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    font-weight: 600;
 }
 
 .card1
@@ -369,6 +371,7 @@ li
 
 .contact_us
 {
+    display: none;
     border: 2px solid black;
     padding: 2px .8rem;
     border-radius: 5px;
@@ -544,10 +547,17 @@ text-align: center;
     width: 50%;
 }
 
-.right_slider,.left_slider
+.right_slide,.left_slide
 {
- font-size: 5rem;
+
+    width: 45%;
+    border: 4px solid black;
+    border-radius: 28px;
+    padding: 1rem 2rem;
+
+
 }
+
 
 
 h3 
@@ -704,8 +714,8 @@ display: none;
 
 .side_bar
 {
-    
-        width: 40%;
+        display: flex;
+        width: 45%;
         height: 100vh;
         background-color: black;
         flex-direction: column;
@@ -714,10 +724,9 @@ display: none;
         position: absolute;
         z-index: 2;
         top: 0;
-        left: -28%; /* Initial position */
-        transition: left 5s ease; /* Define transition here */
-    
-    
+        left: -45%; 
+        transition: all 1s ease; 
+
 
 }
 
