@@ -27,6 +27,7 @@ body {
 
 
 
+
 .container1
 {
  
@@ -56,13 +57,13 @@ transform: scale(1.2,1.2);
 cursor: pointer;
 
 }
-#bar
+
+.side_bar
 {
     display: none;
 }
 
 .slider{display: none;}
-
 .nav ul 
 {   
     display: flex;
