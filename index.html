@@ -16,26 +16,47 @@
      const style = getComputedStyle(element);
 
      if(style.display=='none')
+     {
      element.style.display='flex';
+     element.style.left='0%';
+     }
     else
+    {
     element.style.display='none';
-
+    element.style.left='-28%';
 
     }
+
+    }
+
+    function closebar()
+    {
+      let element=document.getElementById('bar');
+     const style = getComputedStyle(element);
+
+  
+    element.style.display='none';
+    element.style.left='-28%';
+
+    
+    }
+
+
+
+
     window.addEventListener("resize", (event) => {
         console.log("size change");
  
         if (checkWindowWidth(768)) {
             const menu = document.getElementById('bar');
             menu.style.display = "none";
+            element.style.left='-28%';
+
         }
         });
  
  
-        function checkWindowWidth(width) {
-            return window.innerWidth >= width;
-        }
-
+  
     
 
 
@@ -47,7 +68,7 @@
 
 
 
-  <div class="container1">
+  <div class="container1" onclick="checkbar(event)">
     <div class="content1">
       
       <div class="navbar">
@@ -81,6 +102,8 @@
           <div>Guides</div>
           <div>Flights</div>
           <div>About</div>
+          <div onclick="closebar()" style="font-size: 2.4rem;padding: 6% 21%;border:1px solid white;border-radius: 5px;">&#10006;</div>
+
         </div>
 
         <div class="first_look">

@@ -45,6 +45,9 @@
     {
         text-align: justify;
         font-size: 1rem;
+        padding-top:1rem;
+        padding-left:1rem;
+        width: 90%;
     }
 
 
@@ -52,7 +55,7 @@
 
     .heading5 
     {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         font-family: 'Cardo';
         text-decoration: underline;
         line-height: 2.2rem;
@@ -61,7 +64,7 @@
     }
 
   .container6{  
-    padding:5% 5% 5% 5% ;
+    padding:5% 4% 5% 4% ;
     width: 100%;
     background-color: black;
     color: white;
@@ -75,14 +78,15 @@
 .sub6
 {
     text-align: justify;
+    font-size: .9rem;
 }
 
 .sub_head6 {
     font-family: sans-serif;
-    font-size: .8rem;
+    font-size: 1.2rem;
     font-weight: bold;
     width: 50%;
-    padding: 4% 0;
+    padding: 4% 0 2% 0;
 }
 
 
@@ -90,6 +94,7 @@
 .left6{
     width: 100%;
     text-align: center;
+    margin: 0;
 
 }
 
@@ -97,7 +102,7 @@
 {
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   justify-content: space-around;
 }
 
@@ -119,11 +124,19 @@
 
 .container7
 {
-    padding:6% 8%;
+    padding:6% 4%;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+}
+
+.rows
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center
 }
 
 .right7
@@ -135,7 +148,8 @@
 
 .img7
 {
-    width: 80%;
+    width: 95%;
+    height: 36rem;
 }
 
 .left7
@@ -147,14 +161,10 @@
   display: none;
 }
 
-.left7 div 
-{
-    width: 100%;
-}
 
 .container9
 {
-    padding: 2% 8%;
+    padding: 2% 4%;
     display: flex;
     flex-direction: column-reverse;
 
@@ -164,7 +174,7 @@
 {
     display:block;
     padding-top:5%;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-family: 'cardo';
     font-weight: 600;
     margin-bottom:1rem;
@@ -205,11 +215,12 @@
 input[type="submit"]
 {
     text-align: center;
-    padding: 2% 0;
+    padding: 4% 0;
     color: white;
     background-color: black;
     margin-top: 3%;
-    font-size: .8rem;
+    font-size: 1.2rem;
+    transform: none;
 }
 
 textarea{
@@ -222,7 +233,7 @@ textarea{
 
 }
 .form{
-    padding: 2% 5%;
+    padding: 4% 5%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -253,10 +264,10 @@ textarea{
 
 .c9_pic
 {
-    width: 60%;
+    width: 90%;
     padding:0;
     margin:0;
-    height: 18rem;
+    height: 20rem;
 }
 
 
@@ -329,7 +340,9 @@ textarea{
    margin-bottom: 6%;
   width: 100%;
   padding-bottom:2%;
-  box-shadow: 2px 2px 2px black;
+  box-shadow: 2px 2px 8px black;
+  border: 1px solid black;
+  
 }
 
 
@@ -355,14 +368,14 @@ li
 }
 .heading_reverse_1
 {
-    padding-bottom:3%;
+    padding-bottom: 3%;
     display: block;
     width: 100%;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 800;
     font-family: 'cardo';
-    line-height: 2.1rem;
-    text-align: center;
+    line-height: 3rem;
+    text-align: left;
     font-weight: bolder;
 
 }
@@ -391,15 +404,16 @@ padding-bottom: 5%;
 
 
 .imgl5 {
-    width: 80%;
+    width: 90%;
     height: 36rem;
-    margin:10%;
+    margin: 0;
+    margin-bottom: 2%
 }
 
 
 .imgr5 {
-    width: 80%;
-    height: 18rem;
+    width: 90%;
+    height: 20rem;
 }
 
 .content5 {
@@ -438,14 +452,14 @@ text-align: center;
 }
 
 .card{
-width: 62%;
-display: flex;
-flex-direction: column;
-align-items: center;
-border: 2px solid black;
-border-radius: 10px;
-padding: 8% 2%;
-margin-bottom: 5%;
+    width: 82%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 6% 2%;
+    margin-bottom: 5%;
 }
 
 .sign1,.sign2{
@@ -455,10 +469,10 @@ margin-bottom: 5%;
 
 .head8
 {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     font-family: 'cardo';
     font-weight: bolder;
-    width:100%;
+    width:90%;
     text-align: center;
     padding-bottom: 5%  
     
@@ -474,32 +488,42 @@ margin-bottom: 5%;
 
 .container8
 {
-    padding: 5% 8% 8% 8%;
+    padding: 5% 4%;
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: #eae8e8;
-    background-image: url(c8_top.png), url(c8_bottom.png);
-    background-repeat: no-repeat, no-repeat;
-    background-position: top 24% left, bottom 3% right;
-    background-size: 20% 11%, 37% 7%
+   background: none;
 }
 
 
 
 
 .profile_icon {
-    height: 7rem;
+    height: 33%;
     width: 33%;
 }
 
 
 .text1 .sub {
-    width: 85%;
+    width: 100%;
     font-family: sans-serif;
     padding: 0.8rem 0px 2rem 0;
     text-align: justify;
 
+}
+
+h3 
+{
+    padding: 4% 0;
+    font-size: 1.7rem;
+}
+
+.text8
+{
+    text-align: justify;
+    font-size: 1rem;
+    padding: 0% 1rem;
 }
 
 .container3
@@ -531,13 +555,15 @@ margin-bottom: 5%;
 display: none;
 }
 
-
+.sub6{
+    width: 90%;
+}
 
 
 
 .img6
 {
-    width: 80%;
+    width: 90%;
 }
 
 
@@ -551,8 +577,8 @@ display: none;
     font-family: 'cardo';
     font-weight: bold;
     width: 100%;
-    font-size: 2.3rem;
-    line-height: 1.5rem;
+    font-size: 2.25rem;
+    line-height: 2rem;
     padding: 1.5rem 0;
     text-align: center;
     
@@ -560,7 +586,7 @@ display: none;
 
 .text2
 {
-    width: 75%;
+    width: 100%;
     text-align: justify;
     font-size: 1rem
 }
@@ -606,6 +632,11 @@ display: none;
 
 }
 
+
+.container1
+{
+    padding-top: 4%;
+}
 .slider_img{
     width: 10%;
     height: 10%;
@@ -624,26 +655,35 @@ display: none;
 
 .side_bar
 {
-    position: relative;
-    margin-top: 4%;
-    padding: 1% 0;
-    width:100%;
-    height: 10%rem;
-    background-color:#eae8e8;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1.5rem;
+    
+        padding: 3% 0;
+        width: 28%;
+        height: 100vh;
+        background-color: black;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.5rem;
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: -28%; /* Initial position */
+        transition: left 5s ease; /* Define transition here */
+    
     
 
 }
 
 
-
+.sub_3
+{
+    text-align: justify;
+}
 
 
 .side_bar div{
-color:rgb(12, 11, 11);
+    padding: 10% 0% 2% 0;
+    color: rgb(228, 227, 227);
+    margin-bottom: 20%;
 }
 
 .side_bar div :hover
@@ -703,7 +743,7 @@ color: black;
   }
 .heading5
 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-family: 'Cardo';
     text-decoration: underline;
     line-height: 1.6rem;
@@ -713,7 +753,8 @@ color: black;
 }
 .sub5
 {
-    width: 80%;
+    width: 90%;
+    font-size:1rem ;
 }
 
 
