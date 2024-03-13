@@ -12,6 +12,8 @@
     function showsidebar() {
 
       let element = document.getElementById('bar');
+      let backd=document.getElementById('bdrop');
+      backd.style.display='block';
       const style = getComputedStyle(element);
 
       if (style.left =='-45%') {
@@ -28,7 +30,8 @@
     window.addEventListener('scroll', function () {
       let element = document.getElementById('bar');
       const style = getComputedStyle(element);
-
+      let backd=document.getElementById('bdrop');
+      backd.style.display='none';
 
       element.style.left = '-45%';
     });
@@ -36,7 +39,8 @@
     function closebar() {
       let element = document.getElementById('bar');
       const style = getComputedStyle(element);
-
+      let backd=document.getElementById('bdrop');
+      backd.style.display='none';
 
       element.style.left = '-45%';
 
@@ -52,12 +56,23 @@
       if (checkWindowWidth(768)) {
         const menu = document.getElementById('bar');
         element.style.left = '-45%';
+        let backd=document.getElementById('bdrop');
+      backd.style.display='none';
 
       }
     });
 
     function checkWindowWidth(width) {
             return window.innerWidth >= width;
+        }
+
+        function hidebar()
+        {
+          const menu = document.getElementById('bar');
+         menu.style.left = '-45%';
+         let backd=document.getElementById('bdrop');
+         backd.style.display='none';
+
         }
 
 
@@ -69,9 +84,10 @@
 
 <body>
 
+  <div class="backdrop"  onclick="hidebar()"  id="bdrop"></div>
 
 
-  <div class="container1" onclick="checkbar(event)">
+  <div class="container1" >
     <div class="content1">
 
       <div class="navbar">
